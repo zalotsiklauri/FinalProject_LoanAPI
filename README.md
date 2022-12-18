@@ -50,7 +50,7 @@
 #### [User] Request Loan (Requesting Loan)
 
 ```
-    POST /api​/User​/RequestLoan
+    POST /api/User/RequestLoan
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -69,7 +69,7 @@
 ```
 #### [User] Update Loan (Update Loan By Loan Id)
 
-``
+```
     PUT /api/User/UpdateLoan/{id} 
 ```
 | Parameter | Type     | Description                       |
@@ -91,7 +91,7 @@
 #### [User] Delete Loan (Delete Loan By Loan Id)
 
 ```
-    DELETE /api​/User​/DeleteLoan​/{id}
+    DELETE /api/User/DeleteLoan/{id}
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
@@ -104,7 +104,7 @@
 ### [Accountant] Get All User List (Return All Users From dbo.User Table)
 
 ```
-    GET /api​/Accountant​/GetUserList
+    GET /api/Accountant/GetUserList
 ```
 ### [Accountant] Remove User (Remove User By User Id)
 
@@ -137,7 +137,7 @@
 ### [Accountant] Block or Unblock User (Block or Unblock User by User Id )
 
 ```
-    PUT /api​/Accountant​/BlockUnblockUserById​/{id}
+    PUT /api/Accountant/BlockUnblockUserById/{id}
 ```
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
