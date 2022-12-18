@@ -108,7 +108,7 @@
 ```
 ### [Accountant] Remove User (Remove User By User Id)
 
-```http
+```
     DELETE /api/Accountant/RemoveUserById/{id}
 ```
 | Parameter | Type     | Description                       |
