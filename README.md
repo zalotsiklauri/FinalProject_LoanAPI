@@ -4,7 +4,7 @@
 
 #### [User] Login
 
-```http
+```
     POST /api/User/login
 ```
 
